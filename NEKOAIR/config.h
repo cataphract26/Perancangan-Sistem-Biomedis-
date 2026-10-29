@@ -2,10 +2,10 @@
 #define CONFIG_H
 
 // ── WiFi & Telegram ──────────────────────────────────────────────
-#define WIFI_SSID       "Belwis Kos 1"
-#define WIFI_PASSWORD   "belwiskos01"
-#define BOT_TOKEN       "8613117537:AAHPkFfo1oTs8eSUmUH2b2XNkuNDIyWaCvc"
-#define CHAT_ID         "1474534121"
+#define WIFI_SSID       "[isi nama wifi]"
+#define WIFI_PASSWORD   "[isi kata sandi wifi]"
+#define BOT_TOKEN       "[isi token bot telegram]"
+#define CHAT_ID         "[isi ID chat telegram]"
 
 // ── Pin Definitions (REVISI — hindari GPIO0 dan GPIO8) ───────────
 #define PIN_MQ7         1     // GPIO1, ADC1 CH1 — pindah dari GPIO0!
@@ -16,13 +16,13 @@
 #define PIN_DF_RX       6     // GPIO6 ← DFPlayer TX
 #define OLED_SDA        10    // GPIO10 — pindah dari GPIO8 (GPIO8 = LED onboard!)
 
-// Threshold masuk DANGER (sama seperti sebelumnya)
+// Threshold masuk DANGER 
 #define THRESHOLD_CO     120.0f
 #define THRESHOLD_VOC    300.0f
 
 // Threshold keluar DANGER — lebih rendah ~60% dari threshold masuk
-#define THRESHOLD_CO_LOW  90.0f   // ← tambahkan ini
-#define THRESHOLD_VOC_LOW 270.0f  // ← tambahkan ini
+#define THRESHOLD_CO_LOW  90.0f   
+#define THRESHOLD_VOC_LOW 270.0f  
 
 // ── Nomor File Audio ─────────────────────────────────────────────
 #define file_001        1
