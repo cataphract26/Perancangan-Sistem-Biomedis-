@@ -5,8 +5,8 @@
 const char* ssid = "Infinix NOTE 40";
 const char* password = "rasyid54312";
 
-#define BOTtoken "8613117537:AAHPkFfo1oTs8eSUmUH2b2XNkuNDIyWaCvc"
-#define CHAT_ID "1474534121"
+#define BOTtoken "[isi token bot telegram]"
+#define CHAT_ID "[isi id chat telegram]"
 
 WiFiClientSecure client;
 UniversalTelegramBot bot(BOTtoken, client);
